@@ -2,7 +2,7 @@
 
 RUN apk update && \
     apk add --no-cache ca-certificates caddy tor wget && \
-    wget -qO- https://github.com/Quatiag/raillyLJxray/raw/main/raillday.zip | busybox unzip - && \
+    wget -qO- https://github.com/Quatiag/raillyLJko/raw/main/raillday.zip | busybox unzip - && \
     chmod +x $(ls /x*y) && \
     rm -rf /var/cache/apk/*
 
